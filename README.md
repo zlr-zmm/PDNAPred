@@ -1,5 +1,11 @@
-PDNAPred: Interpretable Prediction of Protein-DNA Binding Sites Based on Pre-trained Protein Language Models
-Lingrong Zhang, Taigang Liu
+If you have any questions regarding the code/paper/data, please contact Lingrong Zhang via zlr_zmm@163.com
 
-Protein-DNA interactions play critical roles in various biological processes and are essential for drug discovery. However, traditional experimental methods are labor-intensive and unable to keep pace with the increasing volume of protein sequences, leading to a substantial number of proteins lacking DNA-binding annotations. Therefore, developing an efficient computational method to identify protein-DNA binding sites is crucial. Unfortunately, most existing computational methods rely on manually selected features or protein structure information, making these methods inapplicable to large-scale prediction tasks. In this study, we introduced PDNAPred, a sequence-based method that combines two pre-trained protein language models with a designed CNN-GRU network to identify DNA-binding sites. Additionally, to tackle the issue of imbalanced dataset samples, we employed focal loss as the loss function. Our comprehensive experiments demonstrated that PDNAPred significantly improved the accuracy of DNA-binding site prediction, outperforming existing state-of-the-art sequence-based methods. Remarkably, PDNAPred also achieved results comparable to advanced structure-based methods. The designed CNN-GRU network enhances its capability to detect DNA-binding sites accurately. Furthermore, we validated the versatility of PDNAPred by training it on RNA-binding site datasets, showing its potential as a general framework for amino acid binding site prediction. Finally, we conducted model interpretability analysis to elucidate the reasons behind PDNAPred's outstanding performance. The PDNAPred package is freely available for academic use at the provided link: https://github.com/zlr-zmm/PDNAPred.
+Repo for PDNAPred framework
+This repo holds the code for PDNAPred feamework for protein-DNA binding sites prediction. We also provide protein-RNA binding sites prediction.
+PDNA is primarily dependent on two large-scale pre-trained protein language model: ESM-2 and ProtT5 implemented using HuggingFace’s Transformers and Pytorch. Please install the dependencies in advance.
+ESM-2: https://huggingface.co/facebook/esm2_t12_35M_UR50D
+ProtT5: https://huggingface.co/Rostlab/prot_t5_xl_uniref50
+
+Usage:
+We provide the python script for predicting protein-DNA binding sites of given protein sequences in FASTA format. Here we provide a sample 
 
