@@ -1,11 +1,13 @@
-If you have any questions regarding the code/paper/data, please contact Lingrong Zhang via zlr_zmm@163.com
+PDNAPred Framework
+This repository contains the code for the PDNAPred framework, which is used for predicting protein-DNA binding sites. We also provide functionality for predicting protein-RNA binding sites.
 
-Repo for PDNAPred framework
-This repo holds the code for PDNAPred feamework for protein-DNA binding sites prediction. We also provide protein-RNA binding sites prediction.
-PDNA is primarily dependent on two large-scale pre-trained protein language model: ESM-2 and ProtT5 implemented using HuggingFace’s Transformers and Pytorch. Please install the dependencies in advance.
+PDNAPred relies on two large-scale pre-trained protein language models: ESM-2 and ProtT5. These models are implemented using Hugging Face's Transformers library and PyTorch. Please make sure to install the required dependencies beforehand.
+
 ESM-2: https://huggingface.co/facebook/esm2_t12_35M_UR50D
 ProtT5: https://huggingface.co/Rostlab/prot_t5_xl_uniref50
+Usage
+To predict protein-DNA binding sites for given protein sequences in FASTA format, we provide a 
+Please refer to the documentation for more detailed instructions on how to use the PDNAPred framework.
 
-Usage:
-We provide the python script for predicting protein-DNA binding sites of given protein sequences in FASTA format. Here we provide a sample 
-
+Contact
+If you have any questions regarding the code, paper, or data, please feel free to contact Lingrong Zhang at zlr_zmm@163.com.
