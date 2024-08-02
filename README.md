@@ -38,4 +38,4 @@ Please note that the file paths and other parameters in the above steps need to 
 
 # Contact
 
-If you have any questions regarding the code, paper, or data, please feel free to contact Lingrong Zhang at [zlr_zmm@163.com](mailto:zlr_zmm@163.com).
+If you have any questions regarding the code, paper, or trained model, please feel free to contact Lingrong Zhang at [zlr_zmm@163.com](mailto:zlr_zmm@163.com).
