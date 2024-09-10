@@ -31,6 +31,9 @@ In the `Train.py` script, you need to modify the file paths and other parameters
 ```
 python Train.py
 ```
+Our model can be download from :https://drive.google.com/drive/folders/1uq2tVcMsf5ojsHyoF6A8LzxieCDYe2SK?usp=drive_link
+
+So, you can test only one sequence.
 
 The script will train the model and perform validation based on the data and parameters you provided, and it will save the output in the specified output directory.
 
