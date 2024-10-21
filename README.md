@@ -42,3 +42,11 @@ Please note that the file paths and other parameters in the above steps need to 
 # Contact
 
 If you have any questions regarding the code, paper, or trained model, please feel free to contact Lingrong Zhang at [zlr_zmm@163.com](mailto:zlr_zmm@163.com).
+
+PDNAPred: Interpretable Prediction of Protein-DNA Binding Sites based on Pre-trained Protein Language Models
+
+**Authors:** Lingrong Zhang, Taigang Liu
+
+**Published:** International Journal of Biological Macromolecules, 2024
+
+**DOI:** [Link to DOI](https://doi.org/10.1016/j.ijbiomac.2024.136147)
